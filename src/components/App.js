@@ -5,10 +5,10 @@ class App extends React.Component {
    render() {
      return (
        <div>
-       <SearchBar />
+          <SearchBar />
        </div>
      );
    }
 }
 
-export default App; 
+export default App;
