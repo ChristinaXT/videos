@@ -4,8 +4,10 @@ const VideoItem = ({ video }) => {
   return (
     <div className="item">
       <img className="ui image" src={video.snippet.thumbnails.medium.url} />
-      {video.snippet.title}
-
+      <div>
+         {video.snippet.title}
+      </div>
+      
     </div>
   );
 };
