@@ -6,7 +6,7 @@ const VideoList = ({ videos }) => {
     return <VideoItem />;
   });
 
-  return <div>{renderedList}</div>;
+  return <div className="ui relaxed divided list">{renderedList}</div>;
 };
 
 export default VideoList;

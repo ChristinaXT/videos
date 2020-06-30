@@ -12,7 +12,7 @@ class App extends React.Component {
     const response = await youtube.get("/search", {
       params: {
         q: term,
-        part: "snippet",
+        part: 'snippet',
         maxResults: 5,
         type: 'video',
         key: KEY
