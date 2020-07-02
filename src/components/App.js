@@ -17,16 +17,16 @@ class App extends React.Component {
     const response = await youtube.get("/search", {
       params: {
         q: term,
-        part: 'snippet',
-        maxResults: 5,
-        type: 'video',
-        key: KEY
+        // part: 'snippet',
+        // maxResults: 5,
+        // type: 'video',
+        // key: KEY
       }
     });
 
     this.setState({
-      videos: response.data.items
-      selectedVideo: respose.data.items[0]
+      videos: response.data.items,
+      selectedVideo: response.data.items[0]
     });
   };
 
