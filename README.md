@@ -1,4 +1,4 @@
-This is a Youtube search video app
+This is a Youtube search video app using React 
 <br>
 
 git clone https://github.com/ChristinaXT/videos.git
